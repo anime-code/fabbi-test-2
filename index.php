@@ -22,3 +22,9 @@ echo "<br>";
 //output: 243
 echo  "Tổng lớn nhất được tạo thành từ 2 phần tử trong
 mảng: ". $total;
+
+
+//OR
+rsort($array);
+$sum = $array[0]+$array[1];
+print_r($sum);
