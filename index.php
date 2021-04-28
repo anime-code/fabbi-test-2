@@ -13,7 +13,7 @@ for ($i = 0; $i < count($array); $i++) {
         }
     }
 }
-// Tìm giá trị lớn thứ 2 trong mảng
+// Tìm giá trị lớn thứ 2 trong mảng .
 for ($i = 0; $i < count($array); $i++) {
         if ($array[$i] < $max) {
             $max2 = $array[$i];
