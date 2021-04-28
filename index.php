@@ -12,13 +12,9 @@ for ($i = 0; $i < count($array); $i++) {
             $max = $array[$i];
         }
     }
-}
-// Tìm giá trị lớn thứ 2 trong mảng .
-for ($i = 0; $i < count($array); $i++) {
-        if ($array[$i] < $max) {
-            $max2 = $array[$i];
-        }
-   
+    if ($array[$i] < $max) {
+        $max2 = $array[$i];
+    }
 }
 $total= $max+ $max2;
 echo "Mảng ban đầu [0, 100, -4, 8, 143, 5, 99, 100]";
